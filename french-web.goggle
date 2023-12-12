@@ -4,6 +4,6 @@
 ! author: Philcom1
 
 ! This instruction will match any .fr (like lemonde.fr) and fr. (like fr.wikipedia.org) website.
-https://*.fr/^$boost=1000
-https://www.*.fr/^$boost=1000
-|https://fr.*/^$boost=1000
+https://*.fr/^$boost=7
+https://www.*.fr/^$boost=7
+|https://fr.*/^$boost=7
