@@ -6,4 +6,4 @@
 ! This instruction will match any .de (like golem.de) and de. (like de.wikipedia.org) website.
 https://*.de/^$boost=3
 https://www.*.de/^$boost=3
-|https://de.*/^$boost=3
+|https://de.*/^$boost=4
