@@ -4,6 +4,6 @@
 ! author: Philcom1
 
 ! This instruction will match any .de (like golem.de) and de. (like de.wikipedia.org) website.
-https://*.de/^$boost=1000
-https://www.*.de/^$boost=1000
-|https://de.*/^$boost=1000
+https://*.de/^$boost=7
+https://www.*.de/^$boost=7
+|https://de.*/^$boost=7
