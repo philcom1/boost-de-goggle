@@ -1,0 +1,9 @@
+! name: Lb Websites
+! description: Goggle to target .lu websites
+! public: false
+! author: Philcom1
+
+! This instruction will match any .lu (like rtl.lu) and lu. (like lu.wikipedia.org) website.
+https://*.lu^$boost=9
+https://www.*.lu^$boost=9
+|https://lu.*^$boost=6
